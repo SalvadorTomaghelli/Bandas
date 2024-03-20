@@ -81,3 +81,5 @@ let bandas= [
         video: "https://www.youtube.com/watch?v=XqgWJ_yaU7E"
     }
 ]
+
+module.exports = bandas;
