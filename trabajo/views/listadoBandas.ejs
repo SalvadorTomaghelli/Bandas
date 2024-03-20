@@ -1,7 +1,14 @@
 <html>
     <body>
         <% for( let i = 0; i < lista.length; i++ ) { %>
-            
+            <ul>
+                <li>
+                    <a href=""> 
+                        <%= lista[i].nombre %>
+                    </a>
+                </li>
+                <img src="<%= lista[i].cover %>">
+            </ul>
         <% } %>
     </body>
 </html>
