@@ -4,13 +4,8 @@
         <li>Integrantes: <%=resultado[0].integrantes  %></li>
         <li>Genero: <%=resultado[0].genero  %></li>
         <li>Top Canciones: <%=resultado[0].topCanciones%></li>
-        <li>Cover: <img src="<%= resultado[0].cover %>"></li>
         <a href="<%= resultado[0].video %>"><li>Video</li></a>
-        
-    
+        <li>Cover: <img src="<%= resultado[0].cover %>"></li>
+        <%- include('./partials/footer') %>
     </body>
-    
-
-
-
 </html>
